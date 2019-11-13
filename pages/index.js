@@ -1,11 +1,16 @@
 import axios from "axios";
+import { PageHeader } from "antd";
 import { leagueData } from "../data/leaguedata";
+import Pool from "../components/Pool";
 
 const Index = props => {
-  console.log(props.teams);
   return (
     <div>
-      <p>Hello Next.js</p>
+      <PageHeader
+        title="Really Real NBA Wins Pool"
+        subTitle="Yes, I really did this..."
+      />
+      <Pool teams={props.teams} owners={leagueData} />
     </div>
   );
 };
