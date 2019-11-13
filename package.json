@@ -22,6 +22,7 @@
     "react-dom": "^16.11.0"
   },
   "devDependencies": {
-    "@zeit/next-less": "^1.0.1"
+    "@zeit/next-less": "^1.0.1",
+    "null-loader": "^3.0.0"
   }
 }
