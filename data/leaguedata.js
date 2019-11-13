@@ -9,7 +9,7 @@ export const leagueData = {
   },
   kaustubh: {
     owner: "Kaustubh",
-    teams: ["Nuggets", "Blazers", "Magic", "Timberwolves", "Knicks"]
+    teams: ["Nuggets", "Trail Blazers", "Magic", "Timberwolves", "Knicks"]
   },
   nathan: {
     owner: "Nathan",
